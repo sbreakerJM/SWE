@@ -6,3 +6,4 @@ if  __name__ =="__main__":
     experiment = build_experiment("Experiment 1", "2025-03-21", supervisor, subject)
 
     print(experiment)
+    print("Test1")
