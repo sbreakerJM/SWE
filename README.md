@@ -1,4 +1,4 @@
-### SS-2425 SWE
+# SS-2425 SWE
 
 # Use Case: UC 1.04 – Alarm bei Leistungsabweichung
 
