@@ -14,7 +14,6 @@ class Pferd():
 
     def laufen(self, meine_geschwindigkeit):
         self.geschwindigkeit = meine_geschwindigkeit
-        return "Ich laufe mit ", self.geschwindigkeit, " km/h"
         
 
 #Instanzierung eines Objekts
@@ -25,5 +24,5 @@ pf2 = Pferd("1,30 m", "Mo")
 pf1.sich_vorstellen()
 pf2.sich_vorstellen()
 
-print(pf1.laufen("30"))
-print(pf2.laufen("40"))
+print(pf1.laufen("30 km/h"))
+print(pf2.laufen("40 km/h"))
