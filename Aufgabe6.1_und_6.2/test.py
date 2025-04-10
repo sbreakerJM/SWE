@@ -2,8 +2,8 @@ from my_classes import Subject, Supervisor, Experiment
 
 if __name__ == "__main__":
     # Erstellen eines Leistungstests
-    supervisor = Supervisor("Max", "Mustermann")
-    subject = Subject("Anna", "Musterfrau", "female", 30)
+    supervisor = Supervisor("Max", "Mustermann", "1980-05-15")
+    subject = Subject("Anna", "Musterfrau", "female", "1995-04-07")
     
     # Schätzen der maximalen Herzfrequenz
     max_hr = subject.estimate_max_hr()
